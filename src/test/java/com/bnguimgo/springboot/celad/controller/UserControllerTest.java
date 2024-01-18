@@ -34,7 +34,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * Please note that I prefer the test of the lowest layer --> do not mock service layer
  */
 @SpringBootTest(classes = UserManagerApplication.class)
-//@ActiveProfiles({"test"})//set this if exist
+@ActiveProfiles({"test"})//set this if exist
 @AutoConfigureMockMvc()
 public class UserControllerTest {
 

@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @DataJpaTest
 //Don't replace the application default DataSource.
 //@AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
-//@ActiveProfiles({"test"})//set this if exist
+@ActiveProfiles({"test"})//set this if exist
 public class UserRepositoryTest {
 
 /*    @Autowired
